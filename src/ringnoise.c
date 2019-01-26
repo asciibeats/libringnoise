@@ -3,10 +3,6 @@
 
 #define NORMAL 0.7071068f
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 static const float pi2 = 6.283185307179586476925286766559f;
 static const int hmask = 255;
 static const int gmask4 = 7;
@@ -215,7 +211,3 @@ float rn_perlinringsum2(float x, float y, float offset, float frequency, int oct
 
 	return rn_perlinsum4(point, frequency, octaves, lacunarity, persistence);
 }
-
-#ifdef __cplusplus
-}
-#endif
