@@ -6,7 +6,7 @@ extern "C" {
 #endif
 
 struct vector4 {
-    float x, y, z, w;
+  float x, y, z, w;
 };
 
 extern float rn_perlin4(struct vector4 point, float frequency);
